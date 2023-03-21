@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maksims (C)">
+    <meta name="description" content="Datori mūsu dzīvē un rūpniecībā">
+    <meta name="keywords" content="web, html, css, datori, dzīve, rūpniecība">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b86c59bf34.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../Proekts 2/assets/CSS/index.css">
+    <link rel="icon" type="image/png" href="../Proekts 2/assets/images/favicon.png"> 
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', { 'packages': ['bar'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Year', 'PCs', 'Laptops', 'Tablets'],
+                ['2019', 552, 781, 424],
+                ['2020', 522, 796, 479],
+                ['2021', 495, 866, 535],
+                ['2022', 470, 929, 571]
+            ]);
+
+            var options = {
+                chart: {
+                    title: 'datoru izmantošona (miljonos)',
+                    subtitle: 'PCs, Laptops, Tablets',
+                },
+                bars: 'horizontal' // Required for Material Bar Charts.
+            };
+
+            var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+            chart.draw(data, google.charts.Bar.convertOptions(options));
+        }
+    </script>
+    <title>Datori mūsu dzīvē</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="panel">
+                <div class="logo">
+                    <a href="../Proekts 2/index.html"><img src="../Proekts 2/assets/images/Logo.png" alt="mūsu Logo"></a>
+                </div>
+                <div class="search">
+                    <form method="get" action="http://www.google.com/search" target="_blank"
+                        style="text-align: center;">
+                        <input type="text" class="gglSrch" name="q" size="25" maxlength="255"
+                            placeholder="Type to search">
+                    </form>
+                </div>
+                <div class="navigation">
+                    <div class="navigation_button"><a href="../Proekts 2/Datori_rupnicībā.html" class="button">Datori rūpniecībā</a></div>
+                    <div class="navigation_button"><a href="../Proekts 2/history.html" class="button">Story</a></div>
+                    <div class="navigation_button"><a href="../Proekts 2/kontakti.html" class="button">Par mums</a></div>
+                </div>
+            </div>
+        </header>
+
+        <section class="PC">
+            <div class="title">
+                <div class="left">
+                    <div class="intro">
+                        <h1>
+                            Datori
+                            <br>
+                            Mūsū dzīvē
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <main class="main">
+            <div class="blog">
+                <div class="information">
+                    <h3>liels lēciens cilvēku rasei</h3>
+                    <p class="text2">Datori deva lielu lēcienu cilvēku rasei. Tās tiek izmantotas katrā cilvēka dzīves
+                        aspektā. Viņi kļuva par iniciatoriem cilvēku centieniem izskaust sociālās problēmas, piemēram,
+                        analfabētismu un nabadzību. Grūti iedomāties pasauli bez datoriem. Vai šī revolucionārā
+                        tehnoloģija
+                        tiešām ir mums visiem labvēlīga? Ieinteresējies par šo jautājumu, nolēmu izvēlēties šo projekta
+                        tēmu.</p>
+                </div>
+
+                <div class="progress">
+                    <img src="../Proekts 2/assets/images/progress.jpg" class="progress_2">
+                </div>
+
+                <div class="information">
+                    <h3>Aktualitāte</h3>
+                    <p class="text2">Dators ātri ienāca mūsu dzīvē. Vēl pirms dažiem gadiem bija retums ieraudzīt kādu
+                        personālo datoru – tie eksistēja, bet bija ļoti dārgi, un pat ne katra firma varēja atļauties
+                        savā
+                        birojā nēsāt datoru. Bet tagad? Ar datoru nevienu nepārsteigsi. Praktiski katram no maniem
+                        klasesbiedriem un draugiem ir dators.</p>
+                </div>
+
+                <div class="Aktualitāte">
+                    <img src="../Proekts 2/assets/images/aktualitate.jpg" class="Aktualitāte_2">
+                </div>
+
+                <div class="information">
+                    <h3>datoru plusi mūsū dzīvē <i class="fa-solid fa-circle-plus"></i></h3>
+                    <ul type="none">
+                        <li class="text">
+                            Cilvēki izmanto datoru, lai parastu ikdienas darbu padarītu ātri un viegli. Personīgā datora
+                            izmantošana padara grūto uzdevumu mazāk sarežģītu.
+                        </li>
+
+                        <li class="text">
+                            Dators ietaupa laiku, enerģiju un samazina kopējo vērtību, lai pabeigtu noteiktu uzdevumu.
+                        </li>
+
+                        <li class="text">
+                            Daudzi uzņēmumi izmanto datorus, lai uzturētu savu klientu kontus.
+                        </li>
+
+                        <li class="text">
+                            Saziņa - sociālie tīkli, čati, Skype vai Viber, kas palīdz aprunāties ar radiem un draugiem,
+                            kuri dzīvo ārzemēs.
+                        </li>
+
+                        <li class="text">
+                            Pieejamība un vieglums pirkumu izvēlē un veikšanā.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="information">
+                    <h3>datoru mīnusi mūsū dzīvē <i class="fa-solid fa-circle-minus"></i></h3>
+                    <ul type="none">
+                        <li class="text">
+                            Lietotājs var zaudēt reālās saskarsmes prasmes.
+                        </li>
+
+                        <li class="text">
+                            Ilgstošs darbs datorā pasliktina veselību, konkrēti redzi un stāju.
+                        </li>
+
+                        <li class="text">
+                            Pieeja “nederīgai” un nepatiesai informācijai, bīstamas mājaslapas: bīstamas jauniešu
+                            straumes,
+                            sektas, ekstrēmisma vai vardarbības propaganda.
+                        </li>
+
+                        <li class="text">
+                            Dažādi darbības veidi ir viegli risināmi, lietojot datorus. Tas mazina cilvēku vajadzību un
+                            rada
+                            bezdarbu publiskajā telpā.
+                        </li>
+
+                        <li class="text">
+                            Daži cilvēki datoru izmanto negatīviem mērķiem. Viņi uzlauž kredītkaršu, cilvēku banku kontu
+                            datus un tos ļaunprātīgi izmanto, kā arī viņi var pieņemt svarīgus datus no lielajām
+                            asociācijām.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="diagramma">
+                    <div id="barchart_material" style="width: 1400px; height: 400px;"></div>
+                </div>
+
+                <div class="secinajumi">
+                    <h3>secinājumi</h3>
+                    <p class="text2">Tā kā nevaram atteikties no modernām tehnoloģiskām ierīcēm: datoriem, planšetēm,
+                        viedtālruņiem, tad jāatceras vienkārša patiesība: “Labi ir viss – tikai ar mēru.” Modernā
+                        elektronika ir lietderīga lieta. Bet neapdomīgi lietojot, kaitējums var būt jūtamāks par labumu.
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="Company">
+                    <h3 class="nosaukums">Data//#Info</h3>
+                    <p class="aboutcomp">Šajā vietnē jūs varat atrast informāciju par datoriem mūsu dzīvē, ražošanā un
+                        par to
+                        radīšanas vēsturi. Novēlam patīkamu lasīšanu!</p>
+                </div>
+
+                <div class="buttons">
+                    <div class="social github">
+                        <a href="#" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                    </div>
+
+                    <div class="social windows">
+                        <a href="#" target="_blank"><i class="fa fa-windows fa-2x"></i></a>
+                    </div>
+
+                    <div class="social twitter">
+                        <a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                    </div>
+
+                    <div class="social whatsapp">
+                        <a href="#" target="_blank"><i class="fa fa-whatsapp fa-2x"></i></a>
+                    </div>
+                </div>
+
+                <p class="copyright">Copyright © by Maksims Bokišs 2023</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
